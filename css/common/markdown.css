@@ -120,7 +120,7 @@ redefine-tablet()
   font-size: 3.2rem;
   font-weight: 700;
   border-bottom: solid 2px var(--fourth-text-color);
-  margin-top: 5rem;
+  margin-top: $h1-heading-margin-top;
 redefine-tablet()
 }
 .markdown-body h2,
@@ -129,28 +129,28 @@ redefine-tablet()
   font-weight: 700;
   padding: 3px 0;
   border-bottom: solid 2px var(--fourth-text-color);
-  margin-top: 4rem;
+  margin-top: $h2-heading-margin-top;
 redefine-tablet()
 }
 .markdown-body h3,
 .markdown-body .h3 {
   font-size: 1.8rem;
   font-weight: 600;
-  margin-top: 2.8rem;
+  margin-top: $h3-heading-margin-top;
 redefine-tablet()
 }
 .markdown-body h4,
 .markdown-body .h4 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-top: 2.5rem;
+  margin-top: $h4-heading-margin-top;
 redefine-tablet()
 }
 .markdown-body h5,
 .markdown-body .h5 {
   font-size: 1.28rem;
   font-weight: 600;
-  margin-top: 2.2rem;
+  margin-top: $h5-heading-margin-top;
 redefine-tablet()
 }
 .markdown-body h6,
@@ -158,7 +158,7 @@ redefine-tablet()
   font-size: 1.2rem;
   font-weight: 600;
   line-height: $default-line-height;
-  margin-top: 2rem;
+  margin-top: $h6-heading-margin-top;
 redefine-tablet()
 }
 .markdown-body img {
